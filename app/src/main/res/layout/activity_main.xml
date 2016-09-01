@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#aaffaa"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.tanabe.sotukent.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_margin="10dp"
+        android:text="商品登録"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal" />
+
+    <Spinner
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Spinner01"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.03" />
+
+    <EditText
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="サイズ"
+        android:textSize="30sp"
+        android:layout_gravity="center_horizontal" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="S"
+        android:orientation="horizontal"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="M"
+        android:orientation="horizontal"
+        android:id="@+id/checkBox"
+        android:layout_gravity="left" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="L"
+        android:id="@+id/checkBox3"
+        android:layout_gravity="left" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="追加"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
